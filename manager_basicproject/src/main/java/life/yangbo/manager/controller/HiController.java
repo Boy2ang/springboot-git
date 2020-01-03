@@ -13,6 +13,7 @@ public class HiController {
 
     @GetMapping("/git")
     public String sayHi(){
+        System.out.println("我是开发人员，我新增了这行代码");
         return "l love git ！！！";
     }
 }
